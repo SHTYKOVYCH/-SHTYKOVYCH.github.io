@@ -1,0 +1,19 @@
+.task {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    gap: 10px;
+
+    font-size: 24px;
+
+    &Form {
+        :global(.ant-input) {
+            font-size: 24px;
+        }
+        
+        :global(.ant-form-item){
+            margin: 0;
+        }
+    }
+}
